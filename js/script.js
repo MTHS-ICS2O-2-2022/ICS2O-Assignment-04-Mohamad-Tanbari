@@ -36,7 +36,6 @@ function calculate() {
   // Calculate price based on loaf size
   if (loafSize == "Large") {
     cost = cost + 2
-    console.log('poop')
   } else if (loafSize == "Extra Large") {
     cost = cost + 4
   }
