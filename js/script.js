@@ -7,13 +7,12 @@
 /*
 * This function shows how much your loaf order costs
 */
-function calculate () {
+function calculate() {
   // Define variables
   //const TAX = 0.13
-  const loafType = document.getElementById('loaf-type').value
-  const loafSize = document.getElementById('loaf-size').value
+  const loafType = parseInt(document.getElementById('loaf-type').value)
+  //const loafSize = document.getElementById('loaf-size').value
 
   // output
-  document.getElementById('answer').innerHTML = loafType + '' + loafSize
-  //document.getElementById('answer2').innerHTML = 
+  document.getElementById("answer").innerHTML = loafType
 }
