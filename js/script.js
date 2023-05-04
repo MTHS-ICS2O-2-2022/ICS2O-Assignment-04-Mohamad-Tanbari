@@ -1,7 +1,7 @@
-// Copyright (c) 2020 Mr. Coxall All rights reserved
+// Copyright (c) 2020 Mohamad Tanbari All rights reserved
 //
-// Created by: Mr. Coxall
-// Created on: Sep 2020
+// Created by: Mohamad Tanbari
+// Created on: May 2023
 // This file contains the JS functions for index.html
 
 /*
@@ -34,8 +34,9 @@ function calculate() {
   }
 
   // Calculate price based on loaf size
-  if (loafSize == "Large Loaf") {
+  if (loafSize == "Large") {
     cost = cost + 2
+    console.log('poop')
   } else if (loafSize == "Extra Large") {
     cost = cost + 4
   }
